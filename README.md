@@ -21,4 +21,5 @@ sudo wget -qO- https://raw.githubusercontent.com/SunsetTechuila/Platform-Tools-I
 ```
 You can also update Platform Tools in this way.
 ### Requirements
+- Bash
 - Unzip package
