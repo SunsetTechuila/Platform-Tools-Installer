@@ -17,7 +17,6 @@ Write-Host
 Write-Host -Object 'Please choose a folder to install Platform Tools'
 
 if ( $folderDialog.ShowDialog() -eq 'OK' ) {
-	
 	Write-Host
 	Write-Host -Object 'Unpacking Platform Tools...'
 	
