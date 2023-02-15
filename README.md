@@ -1,5 +1,7 @@
 # Platform Tools Installer
 
+![pti](https://user-images.githubusercontent.com/115353812/219105155-e42b786d-6c60-4c2b-a858-23376dea08ac.png)
+
 ## How to (Windows)
 Run PowerShell as Administrator, paste this commands and press Enter.
 ```powershell
