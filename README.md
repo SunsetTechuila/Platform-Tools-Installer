@@ -17,5 +17,6 @@ Open a console, paste this command and press Enter
 ```shell
 sudo wget -qO- https://raw.githubusercontent.com/SunsetTechuila/Platform-Tools-Installer/main/Platform-Tools-Installer.sh | bash
 ```
+You can also update Platform Tools in this way.
 ### Requirements
 - Unzip package
