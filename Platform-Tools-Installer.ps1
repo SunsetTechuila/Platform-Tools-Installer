@@ -22,7 +22,7 @@ if ( $folderDialog.ShowDialog() -eq 'OK' ) {
 	
 	Expand-Archive -Path $env:Temp\platform-tools.zip -DestinationPath $folderDialog.SelectedPath -Force
 	
-	$platformToolsPath = $folderDialog.SelectedPath + '\platform-tools'
+	$platformToolsPath = "$($folderDialog.SelectedPath)\platform-tools"
 	
 	if ($env:Path -notlike "*$platformToolsPath*") {
 		[Environment]::SetEnvironmentVariable('Path', "$env:Path`;$platformToolsPath", 'User')
